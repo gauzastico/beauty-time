@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.fatec.project.beautytime.view.LoginActivity"
+    tools:context="br.fatec.project.beautytime.view.SignInActivity"
     android:layout_margin="16dp"
     android:gravity="center"
     android:orientation="vertical" >
@@ -33,6 +33,21 @@
     <Button
         android:id="@+id/login_sign_in_button"
         android:text="@string/login"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Não tem cadastro?"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/login_create_button"
+        android:text="Quero me cadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
